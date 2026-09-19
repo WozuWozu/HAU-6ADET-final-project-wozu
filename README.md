@@ -6,9 +6,11 @@
   New here? Read START-HERE.md first. Delete this comment when you are done.
 -->
 
-# App Name
+# ThoughtFull
 
-> One sentence: what this app does, and who it is for.
+> A randomly picked philosopher, their ideology, a quote, biography, and book
+recommendations — one thinker at a time.
+
 
 **Live demo:** https://YOURUSERNAME.github.io/YOUR-REPO/ <!-- GitHub Pages is set up already; replace if you host elsewhere -->
 **Demo video:** `docs/demo.mp4` (link it here once it exists)
@@ -110,10 +112,8 @@ seconds.
 
 ## AI use
 
-If you used AI tools while building this, say so in a sentence or two and say
-where. Honest disclosure is the standard in this course and increasingly outside
-it.
+Usage in app design layout as well as assistance in both code, documentation and cross referencing outputs.
 
 ## Licence
 
-MIT, see [LICENSE](LICENSE). Change it if you want different terms.
+MIT, see [LICENSE](LICENSE).
