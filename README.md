@@ -12,7 +12,7 @@
 recommendations — one thinker at a time.
 
 
-**Live demo:** https://YOURUSERNAME.github.io/YOUR-REPO/ <!-- GitHub Pages is set up already; replace if you host elsewhere -->
+**Live demo:** https://wozuwozu.github.io/HAU-6ADET-final-project-wozu/ <!-- GitHub Pages is set up already; replace if you host elsewhere -->
 **Demo video:** `docs/demo.mp4` (link it here once it exists)
 **Course:** Applications Development and Emerging Technologies (6ADET), Holy Angel University
 **Author:** Your Name
