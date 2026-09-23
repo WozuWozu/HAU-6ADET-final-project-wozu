@@ -37,9 +37,12 @@ const List<Philosopher> philosopherPool = [
       // Same pattern for book covers, e.g.:
       // Book(title: 'Meditations', author: 'Marcus Aurelius',
       //      coverAsset: 'assets/books/meditations.jpg'),
-      Book(title: 'Meditations', author: 'Marcus Aurelius'),
-      Book(title: 'The Inner Citadel', author: 'Pierre Hadot'),
-      Book(title: 'How to Think Like a Roman Emperor', author: 'Donald Robertson'),
+      Book(title: 'Meditations', author: 'Marcus Aurelius',
+      coverAsset: 'assets/books/meditations.jpg'),
+      Book(title: 'The Inner Citadel', author: 'Pierre Hadot',
+      coverAsset: 'assets/books/theinnercitadel.jpg'),
+      Book(title: 'How to Think Like a Roman Emperor', author: 'Donald Robertson',
+      coverAsset: 'assets/books/howtothink.jpg'),
     ],
   ),
   Philosopher(
