@@ -47,7 +47,15 @@ class _DashboardScreenState extends State<DashboardScreen> {
     // this also stands in for the "spike" a real backend fetch would need.
     await Future.delayed(const Duration(milliseconds: 400));
 
-    final pick = philosopherPool[_random.nextInt(philosopherPool.length)];
+    // Filters current history out of the pool
+    final historyIds = await _historyService.getHistory();
+    final eligible = philosopherPool
+      .where((p) => !historyIds.contains(p.id))
+      .toList();
+    
+    final pool = eligible.isNotEmpty ? eligible : philosopherPool;
+
+    final pick = pool[_random.nextInt(pool.length)];
     await _historyService.addPick(pick.id);
 
     if (!mounted) return;
