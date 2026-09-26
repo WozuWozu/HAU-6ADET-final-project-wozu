@@ -39,7 +39,7 @@ around 3-4 hours total on and off.
 
 ---
 
-## Week 1 (13 to 19)
+## Week 1 (September 13 to 19)
 
 **Done this week**
 - Made the github repository
